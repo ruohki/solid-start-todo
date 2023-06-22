@@ -2,14 +2,11 @@
 
 Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
 
-## Creating a project
+## Database
 
+This demo requires mongodb running. Spin it up in docker using:
 ```bash
-# create a new project in the current directory
-npm init solid@latest
-
-# create a new project in my-app
-npm init solid@latest my-app
+docker run -d p27012:27012 mongo
 ```
 
 ## Developing
